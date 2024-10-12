@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="../css/trangchu.css">
+    <link rel="website icon" type="title" href="../images/logo.jpg" />
+  </head>
+  <style>
+    @media screen and (min-width: 1px) {
+        .container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    }
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+    .title {
+      text-align: justify;
+      padding: 10px;
+    }
+    .logo {
+      margin: 0 auto;
+    }
+  </style>
+  <body>
+    <script>
+        $(document).ready(function () {
+          $("#toggle").click(function () {
+            $("nav").slideToggle();
+          });
+        });
+      </script>
+      <div id="wrapper">
+        <div id="header">
+          <div id="toggle"><i class="fa fa-bars" aria-hidden="true"></i></div>
+          <nav>
+            <ul id="main-menu">
+              <li>
+                <a href="./trangchu.html"><b>Trang chủ</b></a>
+              </li>
+              <li>
+                <a href="./gioithieu.html"><b>Giới thiệu</b></a>
+              </li>
+              <li>
+                <a href="./hoatdong.html"><b>Hoạt động</b></a>
+              </li>
+              <li>
+                <a href="./lienhe.html"><b>Liên hệ</b></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    <div class="container">
+      <div class="title">
+        <div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
+          sequi saepe, animi voluptatibus itaque debitis voluptas minima ipsam
+          dolore provident blanditiis quis quam consectetur maxime aut delectus
+          tempore. Magni error culpa, laudantium excepturi voluptas nihil a.
+          Molestias, accusantium quibusdam assumenda accusamus veniam quidem
+          inventore, reiciendis ea ex necessitatibus maiores sequi nisi maxime
+          natus quis earum a consequuntur beatae fugiat at modi placeat quam
+          illo. Nam rem pariatur aut, quidem qui, enim alias delectus autem ex
+          assumenda fugiat placeat possimus explicabo ea, tempora ipsa
+          voluptatibus excepturi ratione! Accusantium possimus voluptates id
+          consequatur magni, modi voluptatibus, cupiditate odit repudiandae,
+          neque amet quis!
+        </div>
+        <div>
+          <img class="logo" width="100%" src="../images/logo.jpg" alt="logo" />
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          facilis natus fugiat atque est aliquid tempora maiores sint voluptatum
+          voluptatem.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

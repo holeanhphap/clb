@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    list-style: none;
+}
+nav {
+    background-color: rgb(39, 223, 255);
+}
+nav #main-menu li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    padding: 8px 15px;
+}
+#main-menu {
+    display: flex;
+}
+nav #main-menu li:hover a {
+    background: rgb(255, 255, 255);
+    transition: all 0.3s;
+}
+@media screen and (max-width: 1px) {
+    #main-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+    #toggle {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+}
+#toggle {
+    display: none;
+    background: gray;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+li {
+    text-align: center;
+}
+.main a {
+    text-decoration: none;
+}
+.main {
+    padding: 5px;
+}
+@media screen and (min-width:1px) {
+    .main {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
